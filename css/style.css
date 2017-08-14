@@ -1,0 +1,450 @@
+{
+	padding: 0;
+	margin: 0;
+}
+ body {
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+	text-rendering: optimizeLigibility: important;
+	-webkit-font-smoothing: antialiased : important;	
+	background-color: white;
+}
+
+	  h1,h2,h4 {
+		  font-family: 'PT Sans Narrow', Arial, sans-serif;
+		  text-transform: uppercase;
+		  font-weight: 700;
+		  	  }
+	  p {
+		  font-size: 13px;
+		  line-height: 21px;
+	  }
+
+	/* Heading Section */
+		.header {
+			/* height: 380px; */
+			width: 100%;
+			padding: 10px 0 10px;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			color:#464646;
+			box-shadow: 5px 5px 10px #C9C7C7;
+			background-color: #E5FCFB;
+			font-family: 'Verdana';
+		}
+		.header img {
+			height: 200px;
+			width: 330px;
+			margin: 120px 30px 20px 10px;
+			border-radius:10px;
+		}
+	.header h1 {
+		font-size: 30px;
+		font-weight: 600;
+		padding-top: 40px;
+	}
+		.header h1,
+		.header p {
+			margin-top: 15px;
+		}
+		.header p {
+		font-size: 10px;
+		padding-top: 10px;
+	}
+	@media(max-width:768px) {
+		.header {
+			padding: 0px;
+			height:880px;
+		}
+		.header img {
+			margin-top: 0px;
+			width: 290px;
+			
+		}
+		.header h1 {
+		font-size: 21px;
+		font-weight: 600;	
+		padding-left: 10px;
+		}
+	}
+		/* End of Heading Section */
+
+/*Services*/
+
+	.services {
+		padding: 20px 0 40px;
+		text-align: center;	
+		 -webkit-box-shadow: 10px 10px 10px 10px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 10px 10px 10px 10px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         10px 10px 10px 10px #ccc;
+		/* background-color:#EEEEEE; */
+		background-color: #008CBA;
+	}
+	.services h2,
+	.services h4 {
+		/* color: #4c4c4c; */
+		color : white;
+		margin: 20px 0 20px;
+	}
+	.services p {
+		/* color: #7373737; */
+		color: white;
+		font-size: 14px;
+		padding-bottom: 40px;
+	}
+		.services i {
+			height: 70px;
+			width: 70px;
+			font-size: 30px;
+			padding: 25px 20px;
+			border-radius: 50%;
+			background-color: #6699cc;
+			color: #fff;
+	}
+	
+	.services a:hover i {
+		background-color: #848484;
+	}
+	@media(max-width:768px) {
+		.services {
+			padding-top: 10px;
+		}		
+	}
+	/* End of Services*/
+	
+	/* Packing Tips */
+	.packagingtipsips i{
+			height: 20px;
+			width: 20px;
+			border-radius: 50%;
+			background-color: red;
+	}
+	.packagingtipsips p {
+		font-size: 13px;
+	}
+	/* End of Packing Tips */
+	
+	/*Team*/
+	.team {
+		padding: 40px 0 40px;
+		text-align: center;
+		background-color:#AAC7DD;
+		}
+	.team b,
+	.team h2,
+	.team h4 {
+		margin: 20px 0 20px;
+		color: #4c4c4c;
+	}
+	.team p {
+		color: #737373;
+	}
+	.team img {
+		height: 180px;
+		width: 180px;
+		margin-top: 50px;
+	}
+	.col-lg-31 {
+		margin-left: 200px;
+	}
+	.team i {
+		height: 30px;
+		width: 30px;
+		padding: 5px;
+		font-size: 17px;
+		border-radius:50%;
+		background-color: #a0db8e;
+		color: #fff;
+	}
+	.team a:hover i {
+		background-color: #709963;
+	}
+		@media(max-width:768px) {
+		.col-lg-31 {
+			margin-left: 0px;
+		}
+	}
+	/* End of Team*/
+	
+	/*Footer*/
+	.footer {
+		padding: 20px;
+		color: #AAAAAA;
+		background-color: #3C3C3C;
+	}
+	.footer .social {
+		font-size: 20px;
+		height: 30px;
+		width: 30px;
+		text-align: center;
+		padding-right: 10px;
+	}
+  /* End of Footer*/
+  /* Footer Bottom */
+
+  #footer_bottom {
+	background-color: #1d4374;
+	margin: 0;
+	padding: 7px 0;
+	}
+	.f_bo_content p{
+		color: #fff;
+		text-align: center;
+		}
+	.f_bo_content p span{
+		font-weight: bold;
+		}
+  /* End of Footer Bottom */
+ 		
+  /*  Title box for all Service page */
+  .titlebox {
+	  /* height: 37px; */
+	  background-color: #4F1C04;
+	  padding: 2px 2px 0 10px;
+	  border-radius: 5px;
+	  color: white;
+	  margin-top: 30px;
+	 width:1120px;
+	  margin-left: 15px;
+	}
+  
+  @media(max-width:768px) {
+	  .titlebox {
+		width:340px;
+		height: 40px;
+		margin-left: 10px;
+		margin-right: 5px;
+	  }
+	}
+	/*  End of Title box for all Service page */
+	 
+    /*  Shipping Agency Service */
+  
+  .detailsService {
+	  margin-top: 25px;
+	  margin-bottom: 35px;
+	}
+  .detailsService h3 {
+	   margin-top: 30px;
+	  margin-bottom: 30px;
+  }
+  .detailsService img {
+	   margin-top: 80px;
+	   height: 200px;
+	   margin-left: 40px;
+	     }
+	 @media(max-width:768px) {
+		.detailsService img{
+			 margin-top: 0px;
+			 width: 330px;
+			 margin-left: 0px;
+		}
+	 }
+	 /* End of Shipping Agency Service */
+	 
+	/*  Sea Freight Services */	
+	.detailsSeaFreightService	{
+		margin-top: 25px;
+		margin-bottom: 50px;		
+	}
+	.detailsSeaFreightService h3 {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.detailsSeaFreightService img {
+		margin-top: 90px;
+	}
+	 @media(max-width:768px) {
+		.detailsSeaFreightService img{
+			margin-top: 0px;
+			margin-left:0px;
+			width: 100%;
+		}
+	 }
+	 /*  End of Sea Freight Services */	
+	 
+	 /* WareHouse Services  */
+	 .wareHouseService {
+		margin-top: 25px;
+		margin-bottom: 30px;
+	 }
+	 .wareHouseService h3 {
+		margin-top: 30px;
+	    margin-bottom: 30px;
+	 }
+	 .wareHouseService img {
+	    margin-top: 90px;
+	    height: 220px;
+		width: 260px;
+	    margin-left: 30px;
+	 }
+	  @media(max-width:768px) {
+		.wareHouseService img{
+			margin-top: 0px;
+			margin-left:0px;
+			width: 100%;
+		}
+	 }
+	 /* End of WareHouse Services  */
+	 
+	 /* Packaging Tips */
+	 .packagingtipsips {
+		margin-top: 25px;
+		margin-bottom: 35px;
+	 }
+	  .packagingtipsips h3 {
+		margin-top: 30px;
+	    margin-bottom: 30px;
+	 }
+	 @media(max-width:768px) {
+		.packagingtipsips h3, p {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+	/* End of Packaging Tips */
+	
+	/*  Sea or Air Services */	
+	.detailsSeaOrAirService	{
+		margin-top: 25px;
+		margin-bottom: 20px;		
+	}
+	.detailsSeaOrAirService h3 {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.detailsSeaOrAirService img {
+		margin-top: 90px;
+		
+	}
+	 @media(max-width:768px) {
+		.detailsSeaOrAirService img{
+			margin-top: 0px;
+			margin-left:0px;
+			width: 100%;
+		}
+	 }
+	 /*  End of Sea or Air Services */	
+	 
+	 /* Contact */
+	 .contact, .contact2 {
+		 padding: 50px 0 80px;
+		 text-align: center;
+	 }
+	 .contact p  {
+		 padding-bottom:80px;
+		 color: #73737373;
+	 }
+	 .contact h2 {
+		 color: #4c4c4c;
+		 margin: 20px 0 20px;
+	 }
+	 .contact .input-group {
+		 margin-bottom: 25px;
+	 }
+	 .contact .form-control {
+		 border-radius: 0!important;
+	 }
+	 .contact span {
+		 border-radius: 0!important;
+	 }
+	 .contact .btn {
+		 border-radius: 0;
+		 width: 100%;
+		 font-size: 15px;
+		 background-color: #f00000;
+		 color: #fff;
+	 }
+	 .contact .btn:hover {
+		background-color: #a85959 !important;
+		color: #fff !important;
+	 }
+	 .key_contct {
+		background-color: #e0eae2;
+		border: 1px solid #dddddd;
+		float: left;
+		height: 165px;
+		width:500px;
+		padding: 30px;
+		text-align: center;
+	}
+.key_contct p{color: #555;
+font-size: 16px;
+line-height: 26px;}
+.key_contct p span{font-weight: bold;
+text-transform: uppercase;}
+
+.contact_top {overflow: hidden;
+text-align: center;}
+.contact_top h2{font-size: 45px;
+margin-bottom: 70px;}
+.contact_top h3{color: #43a72d;
+font-weight: bold;
+margin-bottom: 16px;}
+.contact_top p{font-size: 16px;
+line-height: 26px;}
+.contact_top span{}
+@media(max-width:768px) {
+		.key_contct {
+			width: 330px;
+			margin-top: 25px;
+		}
+	 }
+	 /* End of Contact */
+		.boxSize2 {
+		margin: 60px 0 60px 0;
+		 padding: 50px 0 80px;
+		 text-align: center;
+		 border: 1px solid #dddddd;
+	}
+	.boxSize2 img{
+		height: 300px;
+		width: 450px;
+	}
+	.boxSize2 p {
+		padding: 2%;
+		background: #fff9c6;
+		color: #c7b27e;
+		border: 1px solid #fce29f;
+		border-radius: .25em;
+	}
+	.read-more-state {
+		display: none;
+	}
+	.read-more-target {
+		opacity: 0;
+		max-height: 0;
+		font-size: 0;
+		transition: .25s ease;
+	}
+	.read-more-state:checked ~ .read-more-wrap .read-more-target {
+		opacity: 1;
+		font-size: inherit;
+		<!--  max-height: 999em; -->
+	}
+
+	.read-more-state ~ .read-more-trigger:before {
+	    content: 'Read more';
+	}
+
+	.read-more-state:checked ~ .read-more-trigger:before {
+	    content: 'Read less';
+	}
+	.read-more-trigger {
+		cursor: pointer;
+		display: inline-block;
+		padding: 0 .5em;
+		color: #666;
+		font-size: .9em;
+		line-height: 2;
+		border: 1px solid #ddd;
+		 <!--  border-radius: .25em; -->
+	}
+	@media(max-width:768px) {
+		.boxSize2 img{
+			margin-top: 0px;
+			margin-left:0px;
+			width: 320px;
+		}
+	 }
